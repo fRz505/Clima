@@ -1,73 +1,81 @@
-.root{
-    --bg-color: #444444;
-    --text-color: #F3F6F5;
-    font-size: 18px;
+.root {
+  --bg-color: #444444;
+  --text-color: #f3f6f5;
+  font-size: 18px;
 }
-p{
-    margin-bottom: 0,75rem;
-    line-height: 1.2rem;
+p {
+  margin-bottom: 0, 75rem;
+  line-height: 1.2rem;
 }
-body{
-    background-color: #444444;
-    color: #F3F6F5;
+body {
+  /* background-color: #444444; */
+  color: #f3f6f5;
+  /* background-color: #8BC6EC;
+background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%); */
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
 }
 .buscarciudad {
-    padding: 10px 20px;
-    background-color: #F3F6F5;
-    max-width: 480px;
-    margin: 0px auto;
-    border-radius: 5px;
+  padding: 10px 20px;
+  background-color: #f3f6f5;
+  max-width: 480px;
+  margin: 0px auto;
+  border-radius: 6px;
 }
 
-.busqueda{
-    margin: 20px 20px;
+.busqueda {
+  margin: 20px 20px;
 }
 
 .buscar {
-    width: 100%;
-    background-color: #F3F6F5;
-    border: none;
-    font-size: 1rem;
+  width: 100%;
+  background-color: #f3f6f5;
+  border: none;
+  font-size: 1rem;
 }
 .buscar:focus {
-    outline: none;
+  outline: none;
 }
-.cartaclima{
-   margin: 20px 20px; 
-   background-color: #F3F6F5;
-   color: #444444;
-   padding: 20px;
-   text-align: center;
-   border-radius: 4px;
-   display: none;
+.cartaclima {
+  margin: 20px 20px;
+  background-color: #f3f6f5;
+  color: #444444;
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  display: none;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
 }
-.ciudad{
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    margin-bottom: 0.5rem;
+.ciudad {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
 }
-.fecha{
-    font-size: 0.9rem;
-    margin-bottom: 2rem;
-}
-
-.temperatura{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
+.fecha {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
 }
 
-.tempemid{
-    width: 50px;
-    margin-right: 10px;
+.temperatura {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
 }
 
-.temp{
-    font-size: 2.2rem;
-    font-weight: bold;
+.tempemid {
+  width: 50px;
+  margin-right: 10px;
 }
-.soleado{
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
+
+.temp {
+  font-size: 2.2rem;
+  font-weight: bold;
 }
+.soleado {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
